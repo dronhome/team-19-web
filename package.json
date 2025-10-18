@@ -6,9 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint",
-    "export": "next export",
-    "build:static": "npm run build && npm run export"
+    "lint": "eslint .",
+    "build:static": "next build"
   },
   "dependencies": {
     "react": "19.1.0",
