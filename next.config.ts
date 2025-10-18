@@ -1,14 +1,11 @@
 // next.config.ts
 import type { NextConfig } from "next";
 
-const isProd = process.env.NODE_ENV === "production";
-const repo = "team-19-web";
-
 const nextConfig: NextConfig = {
   output: "export",
   images: { unoptimized: true },
-  basePath: isProd ? `/${repo}` : "",
+  // only set basePath when building for GitHub Pages
+  basePath: process.env.NEXT_PUBLIC_TARGET === "gh-pages" ? "/team-19-web" : "",
 };
 
 export default nextConfig;
-
