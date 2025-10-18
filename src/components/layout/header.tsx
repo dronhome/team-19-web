@@ -13,10 +13,10 @@ export default function Header({ img_src, project_name, team_number }: HeaderPro
         flex items-center justify-between
         border-[var(--lines)]/20 border-b-[0.5px] border-r-[0.5px]
         shadow-[0_0_10px_var(--container)]
-        rounded-br-3xl
+        rounded-b-3xl
         px-4 sm:px-8 md:px-12 lg:px-20
         py-3 md:py-4
-        mr-0 md:mr-4
+        mx-0 md:mx-4
         flex-wrap gap-3 sm:gap-4
       "
         >

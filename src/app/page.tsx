@@ -231,7 +231,7 @@ export default function Home() {
 
                                     <div className="p-4">
                                         <h3 className="text-lg font-semibold line-clamp-1">{p.name}</h3>
-                                        <p className="mt-1 text-sm text-[var(--lines)] line-clamp-2">
+                                        <p className="mt-1 text-sm text-[var(--foreground)] line-clamp-2">
                                             {p.role}
                                         </p>
                                     </div>
@@ -305,8 +305,8 @@ export default function Home() {
             </div>
 
             {/* RIGHT NAVIGATION */}
-            <div className="w-2/7 pl-5 pt-5 pb-5 hidden md:block">
-                <div className="rounded-l-3xl shadow-[0_0_10px_var(--container)] border-[var(--lines)]/20 border-b-[0.5px] border-l-[0.5px] border-t-[0.5px] p-10">
+            <div className="w-2/7 pl-5 pr-5 pt-5 pb-5 hidden md:block">
+                <div className="h-[100%] rounded-3xl shadow-[0_0_10px_var(--container)] border-[var(--lines)]/20 border-b-[0.5px] border-l-[0.5px] border-t-[0.5px] p-10">
                     <h1 className="text-heading">Na tejto stránke:</h1>
 
                     <nav className="flex flex-col gap-2 py-3">

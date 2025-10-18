@@ -13,8 +13,8 @@
 }
 
 :root {
-    --background: #000000;
-    --foreground: #ffffff;
+    --background: #f5f5f5;
+    --foreground: #1c2025;
     --container: #5d5dbe;
     --lines: #ffffff;
 }
