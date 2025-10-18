@@ -372,7 +372,7 @@ function DocList({ items }: { items: { label: string; href: string }[] }) {
     );
 }
 
-export function Documents() {
+function Documents() {
     return (
         <section id="documents" className="mb-10">
             <h2 className="info-section">Dokumenty</h2>
