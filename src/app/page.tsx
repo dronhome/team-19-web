@@ -14,7 +14,7 @@ const DOCS = {
         { label: "Backlog report – Sprint 2", href: "/docs/backlog/backlog-report-sprint-2.pdf" },
     ],
     retrospective: [
-        { label: "Retrospektíva – Sprint 1", href: "/docs/retrospective/retro-sprint-1.pdf" },
+        { label: "Retrospektíva – Sprint 1", href: "/docs/retrospective/FirstSprint.pdf" },
         { label: "Retrospektíva – Sprint 2", href: "/docs/retrospective/retro-sprint-2.pdf" },
     ],
     methodologies: [
