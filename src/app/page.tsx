@@ -18,8 +18,13 @@ const DOCS = {
         { label: "Retrospektíva – Sprint 2", href: "/docs/retrospective/retro-sprint-2.pdf" },
     ],
     methodologies: [
-        { label: "Metodika – Scrum (SK)", href: "/docs/methodologies/scrum-guide-sk.pdf" },
-        { label: "Metodika – HRI hodnotenie", href: "/docs/methodologies/hri-eval-methods.pdf" },
+        { label: "Metodika komunikácie", href: "/docs/methodologies/Metodika-komunikácie.pdf " },
+        { label: "Metodika revízie kódu", href: "/docs/methodologies/Metodika-revízieKódu.pdf" },
+        { label: "Metodika spravovania backlogu", href: "/docs/methodologies/Metodika-spravovaniaBacklogu.pdf" },
+        { label: "Metodika práce s robotom", href: "/docs/methodologies/Metodika-prácesRobotom.pdf" },
+        { label: "Metodika spracovania videí", href: "/docs/methodologies/Metodika-spracovaniaVideí.pdf" },
+
+
     ],
 };
 
